@@ -3,14 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.2.0",
     "axios": "^0.18.0",
     "browser-router": "^0.2.0",
+    "codemirror": "^5.40.2",
     "font-awesome": "^4.7.0",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.1",
+    "react-codemirror2": "^5.1.0",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-split-pane": "^0.1.84",
+    "react-swipeable-views": "^0.13.0"
   },
   "scripts": {
     "start": "react-scripts start",

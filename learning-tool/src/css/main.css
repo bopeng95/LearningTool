@@ -1,3 +1,46 @@
-.tab-pane {
-	padding:1rem 0;
+@import url('https://fonts.googleapis.com/css?family=Karla|Rubik');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 2rem 0;
+}
+
+.container {
+	max-width:960px;
+	margin: 0 auto;
+}
+
+.title {
+	font-family: 'Rubik', Sans-Serif;
+	font-size:40px;
+	margin:10px 0;
+}
+
+.subtitle {
+	font-family: 'Karla', Sans-Serif;
+	font-size:20px;
+	font-weight:200;
+	margin:10px 0;
+}
+
+.content {
+	padding:24px;
+}
+
+.CodeMirror-lines {
+	border-bottom: 1px solid;
+}
+
+
+.CodeMirror-pre {
+	border-bottom: 1px solid;
+}
+
+.CodeMirror {
+	border-radius: 5px;
 }
