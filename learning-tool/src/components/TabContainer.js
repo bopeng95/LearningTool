@@ -4,7 +4,6 @@ import { withStyles } from '@material-ui/core/styles';
 import SwipeableViews from 'react-swipeable-views';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
 
 import Javascript from './javascript';
 
@@ -68,7 +67,7 @@ const styles = theme => ({
   },
 });
 
-class FullWidthTabs extends React.Component {
+class FullWidthTabs extends Component {
 	state = {
 		value: 0,
 	};

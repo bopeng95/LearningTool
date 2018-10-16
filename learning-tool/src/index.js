@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { 
 	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link 
+	// Switch,
+	// Route,
+	// Link
 } from 'react-router-dom';
 import './index.css';
 import './css/main.css';
+import './css/normalize.css';
+import './css/skeleton.css';
 
-import Home from './Home.js';
+//import Home from './Home.js';
 import FullWidthTabs from './components/TabContainer';
 
 import registerServiceWorker from './registerServiceWorker';
@@ -21,13 +23,13 @@ const Header = () => (
 	</header>
 )
 //<Route path='/playlists' component={Home}/>
-const Main = () => (
-	<main>
-		<Switch>
-			<Route exact path='/' component={Home}/>
-		</Switch>
-	</main>
-)
+// const Main = () => (
+// 	<main>
+// 		<Switch>
+// 			<Route exact path='/' component={Home}/>
+// 		</Switch>
+// 	</main>
+// )
 
 const App = () => (
 	<div className="container">
